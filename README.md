@@ -1,5 +1,5 @@
-# ZTS
-## Transcribes video using Microsofts Cognitive Services Video Indexer API.
+# Zoom Transcription Service
+### ZTS transcribes video using Microsofts Cognitive Services Video Indexer API.
   Video Indexer API Documentation: https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview
 
 ## Mission:
@@ -12,4 +12,4 @@
         Zoom automatically saves video file to same folder after the meeting is over.
         We used that to our advantage and wrote a simple Apple Folder Action Script that will run every time a file is added to that folder.
     Emails transcript to all attendees.
-    Posts transcript to specific slack channels. 
+    Posts transcript to specific slack channels.
