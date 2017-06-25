@@ -1,0 +1,3 @@
+Nicholas: I'm Nicholas this is the zoom transcription service.
+Ben: Hey my name is Ben, our product transcripts meeting minutes from any video recording.
+Rob: Hey my name is Rob we used Microsoft's cognitive services video indexer API.
