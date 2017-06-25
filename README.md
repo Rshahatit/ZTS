@@ -5,6 +5,9 @@
 ### ZTS transcribes video using Microsofts Cognitive Services Video Indexer API.
   Video Indexer API Documentation: https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview
 
+  Methods:
+  https://videobreakdown.portal.azure-api.net/docs/services/582074fb0dc56116504aed75/operations/5857caeb0dc5610f9ce979e4
+
 ## Mission:
   To create meeting minutes after a virtual recorded meeting so that attendees can focus rather than take notes.
 
