@@ -22,7 +22,7 @@ block_blob_service = BlockBlobService(account_name='nikolas', account_key='b/qWJ
 block_blob_service.create_blob_from_path(
     'addresses',
     'zoom_0.mp4',
-    '/Users/ramishahatit/Desktop/ZTS/scripts/zoom_0.mp4',
+    'zoom_0.mp4',
     content_settings=ContentSettings(content_type='video/mp4')
             )
 
@@ -54,7 +54,6 @@ data = res.read()
 id = data.decode("utf-8")
 id = id[1:len(id) - 1]
 conn.close()
-print("testing")
 time.sleep(5)
 state = "nothing"
 while(state != "Processed"):
@@ -191,7 +190,7 @@ TO = 'Rshahatit@berkeley.edu, benjong@stanford.edu, nikolasl@stanford.edu'
 SUBJECT = 'Minutes of 06/25/2017 meeting'
 TEXT = "Here are the minutes for your meeting:\n\n\n"
 
-with open("/Users/ramishahatit/Desktop/ZTS/scripts/transcript.txt", "r") as f:
+with open("transcript.txt", "r") as f:
 	TEXT += f.read()
 
 TEXT += "\n\n\n Powered by ZTS"
