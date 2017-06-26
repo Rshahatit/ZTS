@@ -197,7 +197,7 @@ with open("/Users/ramishahatit/Desktop/ZTS/scripts/transcript.txt", "r") as f:
 TEXT += "\n\n\n Powered by ZTS"
 # Gmail Sign In
 gmail_sender = 'nikolas.lee94@gmail.com'
-gmail_passwd = 'b2413e1218'
+gmail_passwd = 'password'
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
