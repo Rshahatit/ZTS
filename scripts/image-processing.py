@@ -17,7 +17,7 @@ def find_person_in_string(s):
     if "Rob" in s:
         return "Rob"
 # initialise blob service
-block_blob_service = BlockBlobService(account_name='nikolas', account_key='b/qWJCuFxdUD4A9Y6erFvXwqMcUBNJz+MAHHADXWN4v+8JRMxMfIW+nqeGKfUFhP1xcb5GJzA2OSuVEs3rVr0Q==')
+block_blob_service = BlockBlobService(account_name='nikolas', account_key='key')
 
 block_blob_service.create_blob_from_path(
     'addresses',
